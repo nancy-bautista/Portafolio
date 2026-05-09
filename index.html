@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Nancy Bautista · Full Stack Developer · Soluciones digitales</title>
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+   <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-flex">
+        <div class="logo">✨ Nancy Bautista</div>
+        <button class="menu-btn" id="menuToggle" aria-label="Menú"><i class="fas fa-bars"></i></button>
+        <div class="nav-links" id="navLinks">
+            <a href="#proyectos">Proyectos</a>
+            <a href="#skills">Skills</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-content animate__animated animate__animated animate__backInDown">
+            <div class="hero-badge"><i class="fas fa-code"></i> +6 años de experiencia</div>
+            <h1>Construyo sistemas <span class="hero-highlight">escalables, orientados a datos</span> y soluciones CRM</h1>
+            <p class="hero-desc">
+          
+                Soy Nancy Bautista Vargas, programadora full stack con más de seis años de experiencia en desarrollo web. 
+                Manejo Node.js, PHP, SQL, Angular, React. Especialista en CRMs, integraciones con Twilio, Mailchimp, Salesforce, 
+                automatización de campañas y atención al cliente.
+            </p>
+            <p class="hero-desc" style="font-size:0.95rem">
+                🎓 Estudiante de Desarrollo de Software en ISIL · Metodologías ágiles (Scrum) · Abierta a oportunidades internacionales, 
+                e-commerce y bases de datos.
+            </p>
+            <div class="tech-stack">
+                <span class="tech-badge"><i class="fab fa-angular"></i> Angular</span>
+                <span class="tech-badge"><i class="fab fa-react"></i> React</span>
+                <span class="tech-badge"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="tech-badge"><i class="fab fa-php"></i> PHP</span>
+                <span class="tech-badge"><i class="fas fa-database"></i> SQL</span>
+                <span class="tech-badge"><i class="fas fa-cloud-upload-alt"></i> CRM/Salesforce</span>
+            </div>
+            <a href="#proyectos" class="btn-primary" style="margin-top: 1.5rem; display: inline-flex;"><i class="fas fa-folder-open"></i> Ver proyectos destacados</a>
+        </div>
+  
+       
+        <div class="avatar-icon animate__animated animate__backInUp">
+             <div class="img-yo">
+                <img src="imagenes/yo.png" alt="avatar">
+            </div>
+
+            <p style="font-size: 0.8rem; margin-top: 12px; color:#f4728d; font-weight:500;">Nancy Bautista · Fullstack
+                <i class="fas fa-laptop-code"></i>
+            </p>
+           
+        </div>
+    </div>
+</section>
+
+<section id="proyectos">
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-rocket" style="margin-right: 10px; color:#f4728d;"></i> Proyectos destacados</h2>
+        <div class="projects-grid">
+            <!-- Honda : con espacio imagen -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="imagenes/honda.png" alt="Honda" style="width: 100px; height: 100%; object-fit: contain; border-radius: 8px;">
+                </div>
+                <div class="card-content">
+                    <div class="client-name">Honda (Autos, Motos, Fuerza)</div>
+                    <div class="project-type">Mantenimiento + CRM & Salesforce</div>
+                    <div class="tech-tags"><span>HTML/JS</span><span>CRM</span><span>Salesforce</span></div>
+                    <p class="project-desc">Soporte y mantenimiento de múltiples webs. Desarrollo de landing pages e integración con CRM y Salesforce. Optimización de leads.</p>
+                
+                    <!-- Enlace -->
+                    <div class="enlaces">
+                        <a href="https://motos.honda.com.pe/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> motos
+                        </a>
+                        <a href="https://autos.honda.com.pe/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> autos
+                        </a>
+                        <a href="https://pf.honda.com.pe/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> productos de fuerza
+                        </a>
+                     </div>
+                 
+                
+                </div>
+
+                
+            </div>
+            <!-- MBE Chile & MBE Perú -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="imagenes/mbe.png" alt="MB Chile & MB Perú" style="width: 100px; height: 100%; object-fit: contain; border-radius: 8px;">
+                </div>
+                <div class="card-content">
+                    <div class="client-name">MBE Chile & MBE Perú</div>
+                    <div class="project-type">WordPress + E-commerce</div>
+                    <div class="tech-tags"><span>WordPress</span><span>PHP</span><span>WooCommerce</span></div>
+                    <p class="project-desc">Desarrollo completo web (Perú) y soporte + e-commerce para Chile. Gestión de catálogos y plugins personalizados.</p>
+                
+                    <!-- Enlace -->
+                    <div class="enlaces">
+                        <a href="https://mbechile.cl/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> MBE Chile
+                        </a>
+                        <a href="https://mbe.pe/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> MBE Perú
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Soulbike -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="imagenes/soulbike.png" alt="Solbike" style="width: 100px; height: 100%; object-fit: contain; border-radius: 8px;">
+                </div>
+                <div class="card-content">
+                    <div class="client-name">Soulbike</div>
+                    <div class="project-type">CRM a medida + Web app</div>
+                    <div class="tech-tags"><span>Angular</span><span>Node.js</span><span>SQL</span></div>
+                    <p class="project-desc">Desarrollo completo de web e implementación de CRM para gestión de clientes, ventas y seguimiento de pedidos.</p>
+                      <!-- Enlace -->
+                    <div class="enlaces">
+                        <a href="https://soulbike.cl/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> Soulbike
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+            <!-- Churromanía -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="imagenes/churromania.png" alt="Churromanía" style="width: 100px; height: 100%; object-fit: contain; border-radius: 8px;">
+                </div>
+                <div class="card-content">
+                    <div class="client-name">Churromanía</div>
+                    <div class="project-type">Landing pages + Leads</div>
+                    <div class="tech-tags"><span>WordPress</span><span>APIs</span><span>Facebook Leads</span></div>
+                    <p class="project-desc">Landing pages e integración de formularios conectados a sistemas de leads, automatización de campañas.</p>
+                    <!-- Enlace -->
+                    <div class="enlaces">
+                        <a href="https://churromania.cl/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> Churromanía
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+            <!-- Mr Joy -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="imagenes/mrjoy.png" alt="Mister Joy" style="width: 100px; height: 100%; object-fit: contain; border-radius: 8px;">
+                </div>
+                <div class="card-content">
+                    <div class="client-name">Mr Joy</div>
+                    <div class="project-type">Soporte web multicountry</div>
+                    <div class="tech-tags"><span>Mantenimiento</span><span>WordPress</span><span>Optimización</span></div>
+                    <p class="project-desc">Soporte web y mantenimiento para múltiples países: Perú, Chile, Ecuador. Gestión de contenido y actualizaciones de performance.</p>
+                    <!-- Enlace -->
+                    <div class="enlaces">
+                        <a href="https://www.mrjoy.com.pe/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> Perú
+                        </a>
+                        <a href="https://www.mrjoy.com.ec/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> Ecuador 
+                        </a>
+                        <a href="https://mrjoy.cl/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> Chile
+                        </a>
+                     </div>
+                
+                </div>
+            </div>
+            <!-- Frenchill (Freelance) -->
+            <div class="project-card hidden">
+                <div class="project-img">
+                    <img src="imagenes/frenchill.png" alt="Frenchill (Freelance)" style="width: 100px; height: 100%; object-fit: contain; border-radius: 8px;">
+                </div>
+                <div class="card-content">
+                    <div class="client-name">Frenchill & CO </div>
+                    <div class="project-type">Tienda online mascotas</div>
+                    <div class="tech-tags"><span>WordPress</span><span>WooCommerce</span><span>UI/UX</span></div>
+                    <p class="project-desc">Desarrollo de tienda online completa para productos de mascotas, integración de pasarela de pagos y catálogo.</p>
+                    <div class="enlaces">
+                        <a href="https://frenchillandco.com/" target="_blank" class="project-link">
+                            <i class="fas fa-external-link"></i> Frenchill & CO
+                        </a>
+                    </div>
+
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+
+<section class="container">
+        
+        <section class="projects">
+            <div class="project active">Honda</div>
+            <div class="project">MB Chile / Perú</div>
+            <div class="project">Solbike</div>
+            <div class="project">Churromanía</div>
+
+            <div class="controls">
+                <button id="prev">↑</button>
+                <button id="next">↓</button>
+            </div>
+        </section>
+</section>
+
+<!-- Skills mejorado con íconos -->
+
+<section id="skills">
+
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-cogs" style="margin-right: 10px; color:#f4728d;"></i> Tech & herramientas</h2>
+        <div class="skills-grid">
+            <div class="skill-cat"><h3><i class="fab fa-angular"></i> Frontend</h3><p>Angular, React, JavaScript, HTML5, CSS3, Media Queries, diseño responsivo.</p></div>
+            <div class="skill-cat"><h3><i class="fas fa-server"></i> Backend</h3><p>Node.js, PHP, APIs REST, autenticación, lógica de negocio.</p></div>
+            <div class="skill-cat"><h3><i class="fas fa-database"></i> Bases de Datos</h3><p>SQL (MySQL, PostgreSQL), modelado, consultas optimizadas.</p></div>
+            <div class="skill-cat"><h3><i class="fas fa-plug"></i> Integraciones</h3><p>Twilio (WhatsApp API), Mailchimp, Facebook Leads, Salesforce.</p></div>
+            <div class="skill-cat"><h3><i class="fas fa-users"></i> Metodologías</h3><p>Scrum, trabajo remoto, equipos ágiles, comunicación fluida.</p></div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="tech-skills-section">
+            <h3 class="tech-title">Tecnologías que domino</h3>
+            <div class="tech-bars-container">
+                <!-- Angular -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fab fa-angular"></i>
+                        <span>Angular</span>
+                        <span class="tech-percent">90%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill angular" style="width: 90%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- React -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <span class="tech-percent">85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill react" style="width: 85%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Node.js -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                        <span class="tech-percent">88%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill nodejs" style="width: 88%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHP -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                        <span class="tech-percent">85%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill php" style="width: 85%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SQL -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fas fa-database"></i>
+                        <span>SQL (MySQL, PostgreSQL)</span>
+                        <span class="tech-percent">87%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill sql" style="width: 87%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript / TypeScript</span>
+                        <span class="tech-percent">92%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill js" style="width: 92%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WordPress -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fab fa-wordpress"></i>
+                        <span>WordPress</span>
+                        <span class="tech-percent">88%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill wp" style="width: 88%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- APIs REST -->
+                <div class="tech-bar-item">
+                    <div class="tech-label">
+                        <i class="fas fa-code-branch"></i>
+                        <span>APIs REST / Integraciones</span>
+                        <span class="tech-percent">90%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-fill api" style="width: 90%">
+                            <div class="glow-effect"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
+
+
+</section>
+
+
+<!-- Breve showcase CRM / automatización (estilo visual) -->
+<section style="padding-top: 0;">
+    <div class="container">
+        <div style="background: #fff6ed; border-radius: 2rem; padding: 1.5rem; border: 1px solid #fde3cf;">
+            <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                <i class="fas fa-chart-line" style="font-size: 2rem; color:#f4728d;"></i>
+                <h3 style="color:#ac4c68;">CRM + Automatización | Gestión de datos en tiempo real</h3>
+            </div>
+            <p style="margin-top: 0.8rem;">Experiencia implementando soluciones CRM a medida que integran <strong>WhatsApp (Twilio)</strong>, correos masivos con Mailchimp y sincronización con Salesforce. Optimización de leads y campañas para clientes como Honda y Churromanía.</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Contacto + formulario interactivo -->
+<section id="contacto">
+    <div class="container">
+        <h2 class="section-title"><i class="fas fa-envelope-open-text"></i> Contacto profesional</h2>
+        <div class="contact-flex">
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Lima, Perú · disponible remoto / internacional</p>
+                <p><i class="fas fa-envelope"></i> nancy.bautista@fullstackdev.com</p>
+                <p><i class="fab fa-linkedin"></i> linkedin.com/in/nancybautista-dev</p>
+                <p><i class="fab fa-github"></i> github.com/nancybdev</p>
+                <p><i class="fas fa-briefcase"></i> Oportunidades e-commerce & data</p>
+                <div style="margin-top: 20px;">
+                    <span class="tech-badge" style="background:#ffe9df;"><i class="fas fa-check-circle"></i> Scrum</span>
+                    <span class="tech-badge" style="background:#ffe9df;"><i class="fas fa-globe"></i> Inglés técnico</span>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre completo" id="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo electrónico" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="3" placeholder="Cuéntame sobre tu proyecto o propuesta laboral..." id="mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+                    <p id="formFeedback" style="margin-top: 12px; font-size: 0.8rem; color:#f4728d;"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer>
+    <p>© 2026 Nancy Bautista Vargas — Fullstack Developer · Construyendo soluciones con 💛 y código limpio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
