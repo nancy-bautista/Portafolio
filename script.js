@@ -117,7 +117,7 @@ const projects = {
 
   honda: {
     title: "Honda",
-    subtitle: "CRM + Salesforce + mantenimiento web",
+    subtitle: "CRM + Salesforce + Wordpress +  Angular + Mantenimiento web",
 
     image: "imagenes/honda.png",
 
@@ -148,7 +148,8 @@ description: `
       "Salesforce",
       "CRM",
       "Landing Pages",
-      "WordPress"
+      "WordPress",
+      "Angular"
     ],
 
     links: [
@@ -176,13 +177,14 @@ description: `
     description: `
       Desarrollo y mantenimiento de plataformas web para MBE Chile y Perú.
       Implementación de funcionalidades e-commerce con WooCommerce,
-      personalización de plugins y optimización del rendimiento.
+      personalización de plugins e integraciones a sus sistemas.
 
       Participé en gestión de contenido, soporte técnico y mejoras UI/UX.
     `,
 
     tech: [
       "WordPress",
+      "Integraciones API BMC",
       "PHP",
       "WooCommerce",
       "JavaScript",
@@ -216,11 +218,10 @@ description: `
     `,
 
     tech: [
-      "Angular",
-      "Node.js",
+      "Web",
       "SQL",
       "CRM",
-      "REST API"
+      "Mantenimiento"
     ],
 
     links: [
@@ -239,17 +240,12 @@ description: `
 
     description: `
       Desarrollo y mantenimiento de landing pages orientadas a campañas.
-      Integración de formularios con plataformas de leads y automatización.
-
-      Optimización de conversiones y soporte para campañas de marketing digital.
+      Integración de formularios con plataformas de leads y automatización en su CRM.
     `,
 
     tech: [
-      "WordPress",
-      "JavaScript",
-      "Facebook Leads",
-      "API Integration",
-      "Marketing Automation"
+      "Mantenimiento",
+      "CRM"
     ],
 
     links: [
@@ -270,16 +266,13 @@ description: `
       Soporte técnico y mantenimiento de plataformas web para Perú,
       Chile y Ecuador.
 
-      Gestión de contenido, mejoras de performance,
-      actualización de componentes y soporte continuo.
+      Gestión de contenido y soporte continuo.
     `,
 
     tech: [
       "WordPress",
-      "Maintenance",
-      "Performance",
-      "SEO",
-      "Frontend"
+      "Frontend",
+      "Mantenimiento"
     ],
 
     links: [
