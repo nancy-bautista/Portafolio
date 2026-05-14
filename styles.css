@@ -624,20 +624,47 @@
   font-size: 11px;
 }
 
+
+
+/* línea animada */
+
 .enlaces a {
-  background: linear-gradient(105deg, #f9a8b9, #fbbf24);
-  border: none;
-  padding: 0.5rem;
-  border-radius: 3rem;
-  font-weight: 700;
-  color: #6b0404;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   cursor: pointer;
-  transition: all 0.25s;
+
+    gap: 8px;
+  font-weight: 700;
+    transition: all 0.25s;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
   text-decoration: none;
   text-transform: uppercase;
+
+}
+
+.enlaces  a::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+
+  width: 0%;
+  height: 2px;
+
+  background: linear-gradient(90deg,#f4728d,#fbbf24);
+
+  transition: .3s;
+}
+
+.enlaces a:hover {
+  color: #d94d73;
+}
+
+.enlaces a:hover::after {
+  width: 100%;
 }
 
 .projects {

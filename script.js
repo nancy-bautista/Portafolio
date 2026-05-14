@@ -212,8 +212,7 @@ description: `
       Implementación de módulos de clientes, ventas,
       seguimiento de pedidos y panel administrativo.
 
-      Participé tanto en frontend como backend utilizando Angular,
-      Node.js y bases de datos SQL.
+      Participación completa como Fullstack
     `,
 
     tech: [
